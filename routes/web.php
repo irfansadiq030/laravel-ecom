@@ -16,11 +16,12 @@ use App\Http\Controllers\mailController;
 */
 
 require __DIR__ . '/admin-routes.php';
+require __DIR__ . '/frontend-routes.php';
 
 Route::get('/sendmail', [mailController::class, 'index']);
 
 
-Route::get('/', function () {
+Route::get('/welcome', function () {
     return view('welcome');
 });
 
