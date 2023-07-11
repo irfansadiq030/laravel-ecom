@@ -32,6 +32,21 @@
                        <li class="nk-menu-item has-sub">
                            <a href="#" class="nk-menu-link nk-menu-toggle" data-original-title="" title="">
                                <span class="nk-menu-icon"><em class="icon ni ni-tag-fill"></em></span>
+                               <span class="nk-menu-text">Pages</span>
+                           </a>
+                           <ul class="nk-menu-sub">
+                               <li class="nk-menu-item">
+                                   <a href="{{ route('home-slider') }}" class="nk-menu-link" data-original-title="" title=""><span class="nk-menu-text">Home Slider</span></a>
+                               </li>
+                               <!-- <li class="nk-menu-item">
+                                   <a href="{{ route('sub-categories') }}" class="nk-menu-link" data-original-title="" title=""><span class="nk-menu-text">Sub Category</span></a>
+                               </li> -->
+
+                           </ul><!-- .nk-menu-sub -->
+                       </li>
+                       <li class="nk-menu-item has-sub">
+                           <a href="#" class="nk-menu-link nk-menu-toggle" data-original-title="" title="">
+                               <span class="nk-menu-icon"><em class="icon ni ni-tag-fill"></em></span>
                                <span class="nk-menu-text">Categories</span>
                            </a>
                            <ul class="nk-menu-sub">
