@@ -5,6 +5,7 @@ use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\TempImagesController;
 use App\Http\Controllers\SubCategoryController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\GeneralSettings;
 use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 use App\Http\Middleware\RedirectIfAdminLogin;
@@ -68,6 +69,9 @@ Route::prefix('admin')->group(function () {
         Route::get('/products/{id}/edit', [ProductController::class, 'edit'])->name('products.edit');
         Route::post('/update-product', [ProductController::class, 'update'])->name('update-product');
         Route::get('/products/{id}/delete', [ProductController::class, 'delete'])->name('delete-product');
+
+        // General Settings
+        Route::get('general-settings', [GeneralSettings::class,'index'])->name('general-settings');
 
     });
 

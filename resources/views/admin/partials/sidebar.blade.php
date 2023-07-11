@@ -1,7 +1,7 @@
    <div class="nk-sidebar nk-sidebar-fixed is-light " data-content="sidebarMenu">
        <div class="nk-sidebar-element nk-sidebar-head">
            <div class="nk-sidebar-brand">
-               <a href="html/index.html" class="logo-link nk-sidebar-logo">
+               <a href="/" target="_blank" class="logo-link nk-sidebar-logo">
                    <img class="logo-light logo-img" src="{{ asset('admin_assets/images/logo.png') }}" srcset="./images/logo2x.png 2x" alt="logo">
                    <img class="logo-dark logo-img" src="{{ asset('admin_assets/images/logo-dark.png') }}" srcset="./images/logo-dark2x.png 2x" alt="logo-dark">
                    <img class="logo-small logo-img logo-img-small" src="{{ asset('admin_assets/images/logo-small.png') }}" srcset="./images/logo-small2x.png 2x" alt="logo-small">
@@ -63,17 +63,17 @@
                            <h6 class="overline-title text-primary-alt">Return to</h6>
                        </li><!-- .nk-menu-item -->
                        <li class="nk-menu-item">
-                           <a href="#" class="nk-menu-link">
+                           <a href="{{ route('general-settings') }}" class="nk-menu-link">
                                <span class="nk-menu-icon"><em class="icon ni ni-dashlite-alt"></em></span>
-                               <span class="nk-menu-text">Main Dashboard</span>
+                               <span class="nk-menu-text">General Settings</span>
                            </a>
                        </li><!-- .nk-menu-item -->
-                       <li class="nk-menu-item">
+                       <!-- <li class="nk-menu-item">
                            <a href="#" class="nk-menu-link">
                                <span class="nk-menu-icon"><em class="icon ni ni-layers-fill"></em></span>
                                <span class="nk-menu-text">All Components</span>
                            </a>
-                       </li><!-- .nk-menu-item -->
+                       </li>.nk-menu-item -->
                    </ul><!-- .nk-menu -->
                </div><!-- .nk-sidebar-menu -->
            </div><!-- .nk-sidebar-content -->
