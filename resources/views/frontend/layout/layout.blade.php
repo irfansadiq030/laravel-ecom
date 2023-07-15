@@ -51,7 +51,7 @@
 
     <!-- Ekka Cart Start -->
     @include('frontend.partials.cart')
-   <!-- Ekka Cart End -->
+    <!-- Ekka Cart End -->
 
     <!-- Main Slider Start -->
     <div class="ec-main-slider section section-space-pb">

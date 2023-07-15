@@ -58,6 +58,12 @@
                                         <input name="sub_heading" type="text" class="form-control" id="sub_heading">
                                     </div>
                                 </div>
+                                <div class="col-6 mb-3">
+                                    <label class="form-label" for="highlighted_heading">Highlighted Highted</label>
+                                    <div class="form-control-wrap">
+                                        <input name="highlighted_heading" type="text" class="form-control" id="highlighted_heading">
+                                    </div>
+                                </div>
                                 <div class="col-6">
                                     <label class="form-label" for="cat_slug">Button Link</label>
                                     <div class="input-group">
@@ -87,7 +93,7 @@
                                         <button class="btn btn-primary">SELECT</button>
                                     </div>
                                 </div>
-                                <input type="hidden" id="temp_img_id" name="img_id">
+                                <input type="text" id="temp_img_id" name="img_id[]">
                             </div>
                             <div class="form-group">
                                 <button type="submit" class="btn btn-lg btn-primary">Save Slide</button>

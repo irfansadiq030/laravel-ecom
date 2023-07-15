@@ -415,7 +415,8 @@
           autoDiscover: false,
           maxFiles: maxFiles,
           maxFilesize: maxFileSize,
-          acceptedFiles: acceptedFiles
+          acceptedFiles: acceptedFiles,
+          addRemoveLinks: true,
         },
           attr = opt ? extend(def, opt) : def;
         $(this).addClass('dropzone').dropzone(attr);
@@ -434,6 +435,25 @@
       success: function (file, response) {
         // alert(response.img_id);
         $("#temp_img_id").val(response.img_id)
+      }
+    });
+  }; // Wizard @v1.0
+
+  // Product Gallery Upload
+  NioApp.Dropzone.init = function () {
+    NioApp.Dropzone('.upload-product-gallery', {
+      url: "/admin/upload-temp-image",
+      headers: {
+        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+      },
+      paramName: 'temp-img',
+      success: function (file, response) {
+        // alert(response.img_id);
+        $("#temp_img_id").val(response.img_id)
+        file.previewElement.id = response.img_id;
+        // console.log(file.previewElement);
+        let inputEl = `<input type="text" name="product_gallery[]" value="${response.img_id}" />`
+        $(file.previewElement).append(inputEl);
       }
     });
   }; // Wizard @v1.0

@@ -25,6 +25,7 @@ class HomeSliderController extends Controller
         $HomeSlider ->button_link = $request->slide_btn_link;
         $HomeSlider ->status = $request->status;
         $HomeSlider ->slide_img = 'null';
+        $HomeSlider ->highlighted_heading = $request->highlighted_heading;
 
         // Save data to db
         $HomeSlider->save();

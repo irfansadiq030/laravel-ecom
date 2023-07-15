@@ -96,14 +96,14 @@
 
                             <div class="form-group">
                                 <label class="form-label" for="product_desc">Media</label>
-                                <div class="upload-zone">
+                                <div class="upload-product-gallery">
                                     <div class="dz-message" data-dz-message>
                                         <span class="dz-message-text">Drag and drop file</span>
                                         <span class="dz-message-or">or</span>
                                         <button class="btn btn-outline-primary">SELECT</button>
                                     </div>
                                 </div>
-                                <input type="hidden" id="temp_img_id" name="img_id">
+                                <input type="hidden" id="temp_img_id" name="img_id[]">
                             </div>
                             <!-- <div class="form-group">
                                 <button type="submit" class="btn btn-lg btn-primary">Save Informations</button>

@@ -15,6 +15,7 @@ use App\Http\Middleware\RedirectIfAdminLogin;
 Route::prefix('admin')->group(function () {
 
     Route::get('/login', [AdminController::class, 'index'])->name('login_form')->middleware('RedirectIfAdminLogin');
+    Route::redirect('/', '/admin/login');
     Route::post('admin.login', [AdminController::class, 'admin_login'])->name('admin.login');
     Route::get('logout', [AdminController::class, 'admin_logout'])->name('admin.logout');
     Route::get('register', [AdminController::class, 'register'])->name('admin.register');

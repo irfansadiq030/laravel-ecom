@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Category;
 use Illuminate\Http\Request;
 use App\Models\Product;
+use App\Models\ProductImage;
 use App\Models\SubCategory;
 use App\Models\TempImage;
 use Illuminate\Support\Facades\File;
@@ -13,7 +14,7 @@ use Image;
 
 class ProductController extends Controller
 {
-    // View Category
+    // View Products
 
     public function index(Request $request)
     {
@@ -47,7 +48,7 @@ class ProductController extends Controller
         return view('admin.products');
     }
 
-    // Add New Category
+    // Add New product
     public function create()
     {
         $categories = Category::all();
@@ -58,7 +59,7 @@ class ProductController extends Controller
     // Create Product
     public function store(Request $request)
     {
-        // dd($request->input('product_title'));
+        // dd($request->input('product_gallery'));
         $validated = $request->validate([
             'product_title' => 'required',
             'slug' => 'required|unique:products',
@@ -79,33 +80,42 @@ class ProductController extends Controller
         $product->sub_category = $request->input('sub_category');
         $product->save();
 
-        // Saving IMAGE
-        if (!empty($request->input('img_id'))) {
-            $temp_img = TempImage::find($request->input('img_id'));
-            $extArray = explode('.', $temp_img->name);
-            $ext = last($extArray);
+        // Saving Product Images to ProductImage Model
 
-            $newImgName = $product->id . '.' . $ext;
-            $sPath = public_path() . '/temp/' . $temp_img->name;
-            $dPath = public_path() . '/uploads/product/' . $newImgName;
+        if (!empty($request->input('product_gallery'))) {
 
-            File::copy($sPath, $dPath);
+            foreach ($request->product_gallery as $img_id) {
+                $ProductImage = new ProductImage();
+                $ProductImage->product_id = $product->id;
+                // $ProductImage->image = 'NULL';
+                
+                $temp_img_info = TempImage::find($img_id);
+                $extArray = explode('.', $temp_img_info->name);
+                $ext = last($extArray);
 
-            // Generate Image Thumbnail
-            $dPath = public_path() . '/uploads/product/thumb/' . $newImgName;
-            $full_img = Image::make($sPath);
-            $thumbnail = $full_img->fit(450, 600);
-            $thumbnail->save($dPath);
+                $newImgName = $product->id .'-'. $ProductImage->id.'.' . $ext;
+                $sPath = public_path() . '/temp/' . $temp_img_info->name;
+                $dPath = public_path() . '/uploads/product/' . $newImgName;
 
-            // Save Category Again
-            $product->img = $newImgName;
-            $product->save();
+                File::copy($sPath, $dPath);
+
+                // Generate Image Thumbnail
+                $dPath = public_path() . '/uploads/product/thumb/' . $newImgName;
+                $full_img = Image::make($sPath);
+                $thumbnail = $full_img->fit(450, 600);
+                $thumbnail->save($dPath);
+
+                // Save Product Images
+                $ProductImage->image = $newImgName;
+                $ProductImage->save();
+            }
+            
         }
 
         return redirect()->route('products')->with('msg','Product Added Successfully!');
     }
 
-    // Edit Category
+    // Edit Product
     public function edit($product_id)
     {
         // dd($category_id);
@@ -124,7 +134,7 @@ class ProductController extends Controller
 
     }
 
-    // Update Category
+    // Update Product
     public function update(Request $request)
     {
         $id = $request->input('product_id');
@@ -182,17 +192,17 @@ class ProductController extends Controller
         return redirect('admin/products')->with('msg', 'Product updated successfully!');
     }
 
-    // Delete Category
+    // Delete Product
     public function delete($id)
     {
-        $category = Category::find($id);
+        $Product = Product::find($id);
 
-        if (!$category) {
-            return redirect()->route('categories')->with('error', 'Category not found!');
+        if (!$Product) {
+            return redirect()->route('products')->with('msg', 'Product not found!');
         }
 
-        $category->delete();
+        $Product->delete();
 
-        return redirect()->route('categories')->with('success', 'Category deleted successfully!');
+        return redirect()->route('products')->with('msg', 'Product deleted successfully!');
     }
 }
