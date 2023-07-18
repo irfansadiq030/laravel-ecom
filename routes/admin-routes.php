@@ -71,6 +71,7 @@ Route::prefix('admin')->group(function () {
         Route::get('/products/{id}/edit', [ProductController::class, 'edit'])->name('products.edit');
         Route::post('/update-product', [ProductController::class, 'update'])->name('update-product');
         Route::get('/products/{id}/delete', [ProductController::class, 'delete'])->name('delete-product');
+        Route::get('/products/{id}/delete-img', [ProductController::class, 'delete_product_img'])->name('delete-product-image');
 
         // Homepage Routes
         Route::get('/home-slider',[HomeSliderController::class,'index'])->name('home-slider');

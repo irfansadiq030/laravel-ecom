@@ -106,6 +106,21 @@
                                 </div>
                                 <input type="hidden" id="temp_img_id" name="img_id[]">
                             </div>
+                            <div class="row">
+                                @forelse ($product_images as $product_img)
+                                <div class="col-4">
+                                    <div class="card">
+                                        <img src="{{ asset('uploads/product/thumb/'.$product_img->image) }}" class="card-img-top" alt="">
+                                        <div class="card-inner">
+                                            <a href="{{ route('delete-product-image',$product_img->id) }}" class="btn btn-danger btn-sm">Delete</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                @empty
+                                <p class="text-center">Products images not available</p>
+                                @endforelse
+
+                            </div>
                             <!-- <div class="form-group">
                                 <button type="submit" class="btn btn-lg btn-primary">Save Informations</button>
                             </div> -->
@@ -204,6 +219,15 @@
 @endsection
 
 @section('custom-js')
+
+<!-- Display Toaster -->
+@if(session('msg'))
+<script>
+    NioApp.Toast(" {{ session('msg') }}", 'success', {
+        position: 'top-right'
+    });
+</script>
+@endif
 
 <script>
     $(document).ready(function() {

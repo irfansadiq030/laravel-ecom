@@ -15,7 +15,6 @@ use Image;
 class ProductController extends Controller
 {
     // View Products
-
     public function index(Request $request)
     {
 
@@ -53,19 +52,19 @@ class ProductController extends Controller
     {
         $categories = Category::all();
         $subCategory = SubCategory::all();
-        return view('admin.add-product')->with(['categories'=> $categories, 'subCategory'=> $subCategory]);
+        return view('admin.add-product')->with(['categories' => $categories, 'subCategory' => $subCategory]);
     }
 
     // Create Product
     public function store(Request $request)
     {
         // dd($request->input('product_gallery'));
-        $validated = $request->validate([
-            'product_title' => 'required',
-            'slug' => 'required|unique:products',
-            'selling_price' => 'required',
-            'quantity' => 'required|numeric',
-        ]);
+        // $validated = $request->validate([
+        //     'product_title' => 'required',
+        //     'slug' => 'required|unique:products',
+        //     'selling_price' => 'required',
+        //     'quantity' => 'required|numeric',
+        // ]);
         // dd($request->all());
 
         $product = new Product();
@@ -85,15 +84,17 @@ class ProductController extends Controller
         if (!empty($request->input('product_gallery'))) {
 
             foreach ($request->product_gallery as $img_id) {
+                $img_id . '<br>';
+
                 $ProductImage = new ProductImage();
                 $ProductImage->product_id = $product->id;
-                // $ProductImage->image = 'NULL';
-                
+                $ProductImage->save();
+
                 $temp_img_info = TempImage::find($img_id);
                 $extArray = explode('.', $temp_img_info->name);
                 $ext = last($extArray);
 
-                $newImgName = $product->id .'-'. $ProductImage->id.'.' . $ext;
+                $newImgName = $product->id . '-' . $ProductImage->id . '.' . $ext;
                 $sPath = public_path() . '/temp/' . $temp_img_info->name;
                 $dPath = public_path() . '/uploads/product/' . $newImgName;
 
@@ -109,10 +110,10 @@ class ProductController extends Controller
                 $ProductImage->image = $newImgName;
                 $ProductImage->save();
             }
-            
         }
+        // die()
 
-        return redirect()->route('products')->with('msg','Product Added Successfully!');
+        return redirect()->route('products')->with('msg', 'Product Added Successfully!');
     }
 
     // Edit Product
@@ -120,15 +121,15 @@ class ProductController extends Controller
     {
         // dd($category_id);
         $product_data = Product::find($product_id);
-
+        $product_images = $product_data->productImages;
         if (empty($product_data)) {
             return redirect()->route('products');
         }
 
         $categories = Category::all();
-        $subcategories = SubCategory::where('main_category_id',$product_data->category)->get();
+        $subcategories = SubCategory::where('main_category_id', $product_data->category)->get();
 
-        return view('admin.edit-product',)->with(['categories' => $categories, 'product_data' => $product_data, 'subcategories' => $subcategories]);
+        return view('admin.edit-product',)->with(['categories' => $categories, 'product_data' => $product_data, 'subcategories' => $subcategories, 'product_images' => $product_images]);
 
         // dd($category_data);
 
@@ -204,5 +205,26 @@ class ProductController extends Controller
         $Product->delete();
 
         return redirect()->route('products')->with('msg', 'Product deleted successfully!');
+    }
+
+    // Delete Product Image
+    public function delete_product_img($id)
+    {
+        // return $id;
+
+        $ProductImage = ProductImage::find($id);
+
+        if (!$ProductImage) {
+            return redirect()->route('products')->with('msg', 'Product Image not found!');
+        }
+
+        // Remove the image file from the public directory
+        $file_path = public_path('uploads/product/thumb/' . $ProductImage->image);
+        if (File::exists($file_path)) {
+            File::delete($file_path);
+        }
+        $ProductImage->delete();
+
+        return redirect()->back()->with('msg', 'Product Image deleted successfully!');
     }
 }

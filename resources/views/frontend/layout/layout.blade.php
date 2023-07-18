@@ -240,11 +240,12 @@
                                     <div class="ec-sb-title">
                                         <h3 class="ec-sidebar-title">Category<button class="ec-close">×</button></h3>
                                     </div>
+                                    @foreach ($categories as $category)
                                     <div class="ec-sb-block-content">
                                         <ul>
                                             <li>
-                                                <div class="ec-sidebar-block-item"><img src="assets/images/icons/dress-8.png" class="svg_img" alt="drink" />Cothes</div>
-                                                <ul style="display: block;">
+                                                <div class="ec-sidebar-block-item"><img src="assets/images/icons/dress-8.png" class="svg_img" alt="drink" />{{ $category->title }}</div>
+                                                <ul>
                                                     <li>
                                                         <div class="ec-sidebar-sub-item"><a href="shop-left-sidebar-col-3.html">Shirt <span title="Available Stock">- 25</span></a>
                                                         </div>
@@ -265,6 +266,8 @@
                                             </li>
                                         </ul>
                                     </div>
+                                    @endforeach
+
                                     <div class="ec-sb-block-content">
                                         <ul>
                                             <li>
