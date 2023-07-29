@@ -11,6 +11,8 @@ class HomeController extends Controller
     public function index()
     {
         $categories = Category::all();
-        return view('frontend.layout.layout')->with(['categories' => $categories]);
+        $subCategories = $categories->flatMap->sub_categories();
+        // dd($categories);
+        return view('frontend.layout.layout')->with(['categories' => $categories, 'subCategories' => $subCategories]);
     }
 }

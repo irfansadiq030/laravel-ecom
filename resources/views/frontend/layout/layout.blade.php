@@ -246,7 +246,13 @@
                                             <li>
                                                 <div class="ec-sidebar-block-item"><img src="assets/images/icons/dress-8.png" class="svg_img" alt="drink" />{{ $category->title }}</div>
                                                 <ul>
+                                                    @foreach ($category->sub_categories as $subCategory)
                                                     <li>
+                                                        <div class="ec-sidebar-sub-item"><a href="shop-left-sidebar-col-3.html">{{ $subCategory->title }} <span title="Available Stock">- 25</span></a>
+                                                        </div>
+                                                    </li>
+                                                    @endforeach
+                                                    <!-- <li>
                                                         <div class="ec-sidebar-sub-item"><a href="shop-left-sidebar-col-3.html">Shirt <span title="Available Stock">- 25</span></a>
                                                         </div>
                                                     </li>
@@ -261,7 +267,7 @@
                                                     <li>
                                                         <div class="ec-sidebar-sub-item"><a href="shop-left-sidebar-col-3.html">dress & frock <span title="Available Stock">- 35</span></a>
                                                         </div>
-                                                    </li>
+                                                    </li> -->
                                                 </ul>
                                             </li>
                                         </ul>
