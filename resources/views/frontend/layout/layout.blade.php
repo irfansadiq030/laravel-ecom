@@ -244,11 +244,11 @@
                                     <div class="ec-sb-block-content">
                                         <ul>
                                             <li>
-                                                <div class="ec-sidebar-block-item"><img src="assets/images/icons/dress-8.png" class="svg_img" alt="drink" />{{ $category->title }}</div>
+                                                <div class="ec-sidebar-block-item"><img src="{{ asset('uploads/category/'.$category->img) }}" class="svg_img" alt="drink" /> {{ $category->title   }}</div>
                                                 <ul>
                                                     @foreach ($category->sub_categories as $subCategory)
                                                     <li>
-                                                        <div class="ec-sidebar-sub-item"><a href="shop-left-sidebar-col-3.html">{{ $subCategory->title }} <span title="Available Stock">- 25</span></a>
+                                                        <div class="ec-sidebar-sub-item"><a href="{{ $category->slug.'/'.$subCategory->slug }}">{{ $subCategory->title }} <span title="Available Stock">- 25</span></a>
                                                         </div>
                                                     </li>
                                                     @endforeach
@@ -274,7 +274,7 @@
                                     </div>
                                     @endforeach
 
-                                    <div class="ec-sb-block-content">
+                                    <!-- <div class="ec-sb-block-content">
                                         <ul>
                                             <li>
                                                 <div class="ec-sidebar-block-item"><img src="assets/images/icons/shoes-8.png" class="svg_img" alt="drink" />Footwear</div>
@@ -411,7 +411,7 @@
                                                 </ul>
                                             </li>
                                         </ul>
-                                    </div>
+                                    </div> -->
                                 </div>
                                 <!-- Sidebar Category Block -->
                                 <!-- Sidebar Price Block -->
@@ -605,22 +605,23 @@
                                 </div>
                             </div>
                             <div class="ec-new-slider">
+                                @foreach ($new_products as $product)
                                 <div class="col-sm-12 ec-all-product-block">
                                     <div class="ec-all-product-inner">
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
-                                                <a href="product-left-sidebar.html" class="image">
-                                                    <img class="main-image" src="assets/images/product-image/88_1.jpg" alt="Product" />
+                                                <a href="{{ $product->slug }}" class="image">
+                                                    <img class="main-image" src="{{asset('uploads/product/'.$product->productImages[0]['image'])  }}" alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
                                         <div class="ec-pro-content">
-                                            <h5 class="ec-pro-title"><a href="product-left-sidebar.html">Relaxed Short full Sleeve T-Shirt</a></h5>
-                                            <h6 class="ec-pro-stitle"><a href="shop-left-sidebar-col-3.html">clothes</a></h6>
+                                            <h5 class="ec-pro-title"><a href="{{ $product->slug }}">{{ $product->title }}</a></h5>
+                                            <h6 class="ec-pro-stitle"><a href="{{ $product->Category->slug .'/'. $product->subCategory->slug }}">{{ $product->subCategory->title }}</a></h6>
                                             <div class="ec-pro-rat-price">
                                                 <div class="ec-pro-rat-pri-inner">
                                                     <span class="ec-price">
-                                                        <span class="new-price">$50.00</span>
+                                                        <span class="new-price">{{ $product->selling_price }}</span>
                                                         <span class="old-price">$55.00</span>
                                                         <span class="qty">- 2 pack</span>
                                                     </span>
@@ -629,7 +630,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-12 ec-all-product-block">
+                                @endforeach
+
+                                <!-- <div class="col-sm-12 ec-all-product-block">
                                     <div class="ec-all-product-inner">
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
@@ -796,7 +799,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <!-- ec Trending -->
@@ -807,22 +810,24 @@
                                 </div>
                             </div>
                             <div class="ec-new-slider">
+                                @foreach ($trendy_products as $product)
+
                                 <div class="col-sm-12 ec-all-product-block">
                                     <div class="ec-all-product-inner">
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
-                                                <a href="product-left-sidebar.html" class="image">
-                                                    <img class="main-image" src="assets/images/product-image/96_1.jpg" alt="Product" />
+                                                <a href="{{ $product->slug }}" class="image">
+                                                    <img class="main-image" src="{{asset('uploads/product/'.$product->productImages[0]['image'])  }}" alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
                                         <div class="ec-pro-content">
-                                            <h5 class="ec-pro-title"><a href="product-left-sidebar.html">Running & Trekking Shoes - White</a></h5>
-                                            <h6 class="ec-pro-stitle"><a href="shop-left-sidebar-col-3.html">sports</a></h6>
+                                            <h5 class="ec-pro-title"><a href="{{ $product->slug }}">{{ $product->title }}</a></h5>
+                                            <h6 class="ec-pro-stitle"><a href="{{ $product->Category->slug .'/'. $product->subCategory->slug }}">{{ $product->subCategory->title }}</a></h6>
                                             <div class="ec-pro-rat-price">
                                                 <div class="ec-pro-rat-pri-inner">
                                                     <span class="ec-price">
-                                                        <span class="new-price">$42.00</span>
+                                                        <span class="new-price">${{ $product->selling_price }}</span>
                                                         <span class="old-price">$45.00</span>
                                                         <span class="qty">- 5 kg</span>
                                                     </span>
@@ -831,7 +836,10 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-12 ec-all-product-block">
+
+                                @endforeach
+
+                                <!-- <div class="col-sm-12 ec-all-product-block">
                                     <div class="ec-all-product-inner">
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
@@ -998,7 +1006,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <!-- ec Top Rated -->
@@ -1009,7 +1017,33 @@
                                 </div>
                             </div>
                             <div class="ec-new-slider">
+                                @foreach ($new_products as $product)
                                 <div class="col-sm-12 ec-all-product-block">
+                                    <div class="ec-all-product-inner">
+                                        <div class="ec-pro-image-outer">
+                                            <div class="ec-pro-image">
+                                                <a href="{{ $product->slug }}" class="image">
+                                                    <img class="main-image" src="{{asset('uploads/product/'.$product->productImages[0]['image'])  }}" alt="Product" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="ec-pro-content">
+                                            <h5 class="ec-pro-title"><a href="{{ $product->slug }}">{{ $product->title }}</a></h5>
+                                            <h6 class="ec-pro-stitle"><a href="{{ $product->Category->slug .'/'. $product->subCategory->slug }}">{{ $product->subCategory->title }}</a></h6>
+                                            <div class="ec-pro-rat-price">
+                                                <div class="ec-pro-rat-pri-inner">
+                                                    <span class="ec-price">
+                                                        <span class="new-price">{{ $product->selling_price }}</span>
+                                                        <span class="old-price">$55.00</span>
+                                                        <span class="qty">- 2 pack</span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                @endforeach
+                                <!-- <div class="col-sm-12 ec-all-product-block">
                                     <div class="ec-all-product-inner">
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
@@ -1200,7 +1234,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>

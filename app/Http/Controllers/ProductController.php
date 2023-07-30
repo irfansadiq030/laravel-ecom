@@ -59,12 +59,12 @@ class ProductController extends Controller
     public function store(Request $request)
     {
         // dd($request->input('product_gallery'));
-        // $validated = $request->validate([
-        //     'product_title' => 'required',
-        //     'slug' => 'required|unique:products',
-        //     'selling_price' => 'required',
-        //     'quantity' => 'required|numeric',
-        // ]);
+        $validated = $request->validate([
+            'product_title' => 'required',
+            'slug' => 'required|unique:products',
+            'selling_price' => 'required',
+            'quantity' => 'required|numeric',
+        ]);
         // dd($request->all());
 
         $product = new Product();
@@ -77,6 +77,7 @@ class ProductController extends Controller
         $product->size = $request->input('size');
         $product->category = $request->input('category');
         $product->sub_category = $request->input('sub_category');
+        $product->trendy = $request->input('trendy');
         $product->save();
 
         // Saving Product Images to ProductImage Model
@@ -162,6 +163,9 @@ class ProductController extends Controller
         $product->size = $request->input('size');
         $product->category = $request->input('category');
         $product->sub_category = $request->input('sub_category');
+        $product->trendy = $request->input('trendy');
+        $product->old_price = $request->input('old_price');
+
         $product->save();
 
         // Old image 

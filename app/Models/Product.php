@@ -13,4 +13,14 @@ class Product extends Model
     {
         return $this->hasMany(ProductImage::class);
     }
+
+    public function subCategory()
+    {
+        return $this->belongsTo(Subcategory::class, 'sub_category');
+    }
+
+    public function Category()
+    {
+        return $this->belongsTo(Category::class, 'category');
+    }
 }

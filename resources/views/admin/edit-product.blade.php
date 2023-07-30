@@ -159,9 +159,17 @@
                                         <input value="{{ $product_data->quantity }}" name="quantity" type="number" class="form-control" id="quantity">
                                     </div>
                                 </div>
-                                <!-- <div class="form-control-wrap">
-                                    <input name="quantity" type="number" class="form-control" id="quantity">
-                                </div> -->
+                            </div>
+                            <div class="col-12 mb-3">
+                                <label class="form-label" for="old_price">Old Price</label>
+                                <div class="form-control-wrap">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="basic-addon1">$</span>
+                                        </div>
+                                        <input name="old_price" type="number" class="form-control" id="old_price">
+                                    </div>
+                                </div>
                             </div>
                             <div class="col-12 mb-3">
                                 <div class="form-group">
@@ -198,6 +206,17 @@
                                         <select name="product_status" class="form-select select2-hidden-accessible" data-select2-id="98" tabindex="-1" aria-hidden="true">
                                             <option {{ $product_data->status === 'active' ?'selected' :'' }} value="active">Active</option>
                                             <option {{ $product_data->status === 'draft' ?'selected' :'' }} value="draft">Draft</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <div class="form-group">
+                                    <label class="form-label">Trendy</label>
+                                    <div class="form-control-wrap">
+                                        <select name="trendy" class="form-select select2-hidden-accessible" tabindex="-1" aria-hidden="true">
+                                            <option {{ $product_data->status === 'no' ?'selected' :'' }} value="no">No</option>
+                                            <option {{ $product_data->status === 'yes' ?'selected' :'' }} value="yes">Yes</option>
                                         </select>
                                     </div>
                                 </div>
