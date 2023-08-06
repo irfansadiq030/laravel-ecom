@@ -98,7 +98,7 @@
                      <!-- Ec Header Logo Start -->
                      <div class="align-self-center">
                          <div class="header-logo">
-                             <a href="index.html"><img src="assets/images/logo/logo-8.png" alt="Site Logo" /><img class="dark-logo" src="assets/images/logo/dark-logo-8.png" alt="Site Logo" style="display: none;" /></a>
+                             <a href="index.html"><img src="frontend_assets/images/logo/logo-8.png" alt="Site Logo" /><img class="dark-logo" src="frontend_assets/images/logo/dark-logo-8.png" alt="Site Logo" style="display: none;" /></a>
                          </div>
                      </div>
                      <!-- Ec Header Logo End -->
@@ -156,7 +156,7 @@
                  <!-- Ec Header Logo Start -->
                  <div class="col">
                      <div class="header-logo">
-                         <a href="index.html"><img src="assets/images/logo/logo-8.png" alt="Site Logo" /><img class="dark-logo" src="assets/images/logo/dark-logo-8.png" alt="Site Logo" style="display: none;" /></a>
+                         <a href="index.html"><img src="frontend_assets/images/logo/logo-8.png" alt="Site Logo" /><img class="dark-logo" src="frontend_assets/images/logo/dark-logo-8.png" alt="Site Logo" style="display: none;" /></a>
                      </div>
                  </div>
                  <!-- Ec Header Logo End -->
@@ -236,10 +236,10 @@
                                      </li>
                                      <li>
                                          <ul class="ec-main-banner w-100">
-                                             <li><a class="p-0" href="shop-left-sidebar-col-3.html"><img class="img-responsive" src="assets/images/menu-banner/1.jpg" alt=""></a></li>
-                                             <li><a class="p-0" href="shop-left-sidebar-col-4.html"><img class="img-responsive" src="assets/images/menu-banner/2.jpg" alt=""></a></li>
-                                             <li><a class="p-0" href="shop-right-sidebar-col-3.html"><img class="img-responsive" src="assets/images/menu-banner/3.jpg" alt=""></a></li>
-                                             <li><a class="p-0" href="shop-right-sidebar-col-4.html"><img class="img-responsive" src="assets/images/menu-banner/4.jpg" alt=""></a></li>
+                                             <li><a class="p-0" href="shop-left-sidebar-col-3.html"><img class="img-responsive" src="frontend_assets/images/menu-banner/1.jpg" alt=""></a></li>
+                                             <li><a class="p-0" href="shop-left-sidebar-col-4.html"><img class="img-responsive" src="frontend_assets/images/menu-banner/2.jpg" alt=""></a></li>
+                                             <li><a class="p-0" href="shop-right-sidebar-col-3.html"><img class="img-responsive" src="frontend_assets/images/menu-banner/3.jpg" alt=""></a></li>
+                                             <li><a class="p-0" href="shop-right-sidebar-col-4.html"><img class="img-responsive" src="frontend_assets/images/menu-banner/4.jpg" alt=""></a></li>
                                          </ul>
                                      </li>
                                  </ul>
@@ -472,7 +472,7 @@
                                      <li><a href="shop-list-full-col-2.html">Full width 2 columns</a></li>
                                  </ul>
                              </li>
-                             <li><a class="p-0" href="shop-left-sidebar-col-3.html"><img class="img-responsive" src="assets/images/menu-banner/1.jpg" alt=""></a>
+                             <li><a class="p-0" href="shop-left-sidebar-col-3.html"><img class="img-responsive" src="frontend_assets/images/menu-banner/1.jpg" alt=""></a>
                              </li>
                          </ul>
                      </li>

@@ -17,4 +17,5 @@ yarn-error.log
 /.idea
 /.vscode
 /public/uploads
+/public/frontend_assets/images
 /public/temp

@@ -8,7 +8,7 @@
              </div>
              <ul class="eccart-pro-items">
                  <li>
-                     <a href="product-left-sidebar.html" class="sidecart_pro_img"><img src="assets/images/product-image/93_1.jpg" alt="product"></a>
+                     <a href="product-left-sidebar.html" class="sidecart_pro_img"><img src="frontend_assets/images/product-image/93_1.jpg" alt="product"></a>
                      <div class="ec-pro-content">
                          <a href="single-product-left-sidebar.html" class="cart_pro_title">Mens Winter Leathers Jackets</a>
                          <span class="cart-price"><span>$49.00</span> x 1</span>
@@ -19,7 +19,7 @@
                      </div>
                  </li>
                  <li>
-                     <a href="product-left-sidebar.html" class="sidecart_pro_img"><img src="assets/images/product-image/96_1.jpg" alt="product"></a>
+                     <a href="product-left-sidebar.html" class="sidecart_pro_img"><img src="frontend_assets/images/product-image/96_1.jpg" alt="product"></a>
                      <div class="ec-pro-content">
                          <a href="product-left-sidebar.html" class="cart_pro_title">Running & Trekking Shoes - White</a>
                          <span class="cart-price"><span>$150.00</span> x 1</span>
@@ -30,7 +30,7 @@
                      </div>
                  </li>
                  <li>
-                     <a href="product-left-sidebar.html" class="sidecart_pro_img"><img src="assets/images/product-image/111_1.jpg" alt="product"></a>
+                     <a href="product-left-sidebar.html" class="sidecart_pro_img"><img src="frontend_assets/images/product-image/111_1.jpg" alt="product"></a>
                      <div class="ec-pro-content">
                          <a href="product-left-sidebar.html" class="cart_pro_title">Rose Gold Peacock Earrings</a>
                          <span class="cart-price"><span>$950.00</span> x 1</span>

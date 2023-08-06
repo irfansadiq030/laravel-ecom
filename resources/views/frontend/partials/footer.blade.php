@@ -166,7 +166,7 @@
                         <div class="footer-bottom-right">
                             <div class="footer-bottom-payment d-flex justify-content-center">
                                 <div class="payment-link">
-                                    <img src="assets/images/icons/payment.png" alt="">
+                                    <img src="frontend_assets/images/icons/payment.png" alt="">
                                 </div>
 
                             </div>
@@ -199,36 +199,36 @@
                             <!-- Swiper -->
                             <div class="qty-product-cover">
                                 <div class="qty-slide">
-                                    <img class="img-responsive" src="assets/images/product-image/94_1.jpg" alt="">
+                                    <img class="img-responsive" src="frontend_assets/images/product-image/94_1.jpg" alt="">
                                 </div>
                                 <div class="qty-slide">
-                                    <img class="img-responsive" src="assets/images/product-image/94_2.jpg" alt="">
+                                    <img class="img-responsive" src="frontend_assets/images/product-image/94_2.jpg" alt="">
                                 </div>
                                 <div class="qty-slide">
-                                    <img class="img-responsive" src="assets/images/product-image/93_1.jpg" alt="">
+                                    <img class="img-responsive" src="frontend_assets/images/product-image/93_1.jpg" alt="">
                                 </div>
                                 <div class="qty-slide">
-                                    <img class="img-responsive" src="assets/images/product-image/93_2.jpg" alt="">
+                                    <img class="img-responsive" src="frontend_assets/images/product-image/93_2.jpg" alt="">
                                 </div>
                                 <div class="qty-slide">
-                                    <img class="img-responsive" src="assets/images/product-image/94_2.jpg" alt="">
+                                    <img class="img-responsive" src="frontend_assets/images/product-image/94_2.jpg" alt="">
                                 </div>
                             </div>
                             <div class="qty-nav-thumb">
                                 <div class="qty-slide">
-                                    <img class="img-responsive" src="assets/images/product-image/94_1.jpg" alt="">
+                                    <img class="img-responsive" src="frontend_assets/images/product-image/94_1.jpg" alt="">
                                 </div>
                                 <div class="qty-slide">
-                                    <img class="img-responsive" src="assets/images/product-image/94_2.jpg" alt="">
+                                    <img class="img-responsive" src="frontend_assets/images/product-image/94_2.jpg" alt="">
                                 </div>
                                 <div class="qty-slide">
-                                    <img class="img-responsive" src="assets/images/product-image/93_1.jpg" alt="">
+                                    <img class="img-responsive" src="frontend_assets/images/product-image/93_1.jpg" alt="">
                                 </div>
                                 <div class="qty-slide">
-                                    <img class="img-responsive" src="assets/images/product-image/93_2.jpg" alt="">
+                                    <img class="img-responsive" src="frontend_assets/images/product-image/93_2.jpg" alt="">
                                 </div>
                                 <div class="qty-slide">
-                                    <img class="img-responsive" src="assets/images/product-image/94_2.jpg" alt="">
+                                    <img class="img-responsive" src="frontend_assets/images/product-image/94_2.jpg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -287,7 +287,7 @@
         <div class="cc-panel">
             <!-- Panel Content -->
             <div class="cc-header">
-                <img src="assets/images/whatsapp/profile_01.jpg" alt="profile image" />
+                <img src="frontend_assets/images/whatsapp/profile_01.jpg" alt="profile image" />
                 <h2>John Mark</h2>
                 <p>Tachnical Manager</p>
             </div>
@@ -322,7 +322,7 @@
         <div id="ec-popnews-close"><i class="ecicon eci-close"></i></div>
         <div class="row">
             <div class="col-md-7 disp-no-767">
-                <img src="assets/images/banner/newsletter-8.png" alt="newsletter">
+                <img src="frontend_assets/images/banner/newsletter-8.png" alt="newsletter">
             </div>
             <div class="col-md-5">
                 <div id="ec-popnews-box-content">
@@ -364,7 +364,7 @@
 
     <!-- Recent Purchase Popup  -->
     <div class="recent-purchase">
-        <img src="assets/images/product-image/111_1.jpg" alt="payment image">
+        <img src="frontend_assets/images/product-image/111_1.jpg" alt="payment image">
         <div class="detail">
             <p>Someone in new just bought</p>
             <h6>Rose Gold Earrings</h6>

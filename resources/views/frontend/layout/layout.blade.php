@@ -133,7 +133,7 @@
                     <div class="ec_cat_content ec_cat_content_1">
                         <div class="ec_cat_inner ec_cat_inner-1">
                             <div class="ec-category-image">
-                                <img src="assets/images/icons/dress-8.png" class="svg_img" alt="drink" />
+                                <img src="frontend_assets/images/icons/dress-8.png" class="svg_img" alt="drink" />
                             </div>
                             <div class="ec-category-desc">
                                 <h3>dress & frock <span title="Category Items">(53)</span></h3>
@@ -144,7 +144,7 @@
                     <div class="ec_cat_content ec_cat_content_2">
                         <div class="ec_cat_inner ec_cat_inner-2">
                             <div class="ec-category-image">
-                                <img src="assets/images/icons/coat-cat-8.png" class="svg_img" alt="drink" />
+                                <img src="frontend_assets/images/icons/coat-cat-8.png" class="svg_img" alt="drink" />
                             </div>
                             <div class="ec-category-desc">
                                 <h3>Winter wear <span title="Category Items">(58)</span></h3>
@@ -155,7 +155,7 @@
                     <div class="ec_cat_content ec_cat_content_3">
                         <div class="ec_cat_inner ec_cat_inner-3">
                             <div class="ec-category-image">
-                                <img src="assets/images/icons/glasses-8.png" class="svg_img" alt="drink" />
+                                <img src="frontend_assets/images/icons/glasses-8.png" class="svg_img" alt="drink" />
                             </div>
                             <div class="ec-category-desc">
                                 <h3>glasses & lens <span title="Category Items">(76)</span></h3>
@@ -166,7 +166,7 @@
                     <div class="ec_cat_content ec_cat_content_4">
                         <div class="ec_cat_inner ec_cat_inner-4">
                             <div class="ec-category-image">
-                                <img src="assets/images/icons/shorts-cat-8.png" class="svg_img" alt="drink" />
+                                <img src="frontend_assets/images/icons/shorts-cat-8.png" class="svg_img" alt="drink" />
                             </div>
                             <div class="ec-category-desc">
                                 <h3>shorts & jeans<span title="Category Items">(49)</span></h3>
@@ -177,7 +177,7 @@
                     <div class="ec_cat_content ec_cat_content_5">
                         <div class="ec_cat_inner ec_cat_inner-5">
                             <div class="ec-category-image">
-                                <img src="assets/images/icons/t-shirt-cat-8.png" class="svg_img" alt="drink" />
+                                <img src="frontend_assets/images/icons/t-shirt-cat-8.png" class="svg_img" alt="drink" />
                             </div>
                             <div class="ec-category-desc">
                                 <h3>T-shirts<span title="Category Items">(25)</span></h3>
@@ -188,7 +188,7 @@
                     <div class="ec_cat_content ec_cat_content_6">
                         <div class="ec_cat_inner ec_cat_inner-6">
                             <div class="ec-category-image">
-                                <img src="assets/images/icons/jacket-cat-8.png" class="svg_img" alt="drink" />
+                                <img src="frontend_assets/images/icons/jacket-cat-8.png" class="svg_img" alt="drink" />
                             </div>
                             <div class="ec-category-desc">
                                 <h3>jacket<span title="Category Items">(35)</span></h3>
@@ -199,7 +199,7 @@
                     <div class="ec_cat_content ec_cat_content_7">
                         <div class="ec_cat_inner ec_cat_inner-7">
                             <div class="ec-category-image">
-                                <img src="assets/images/icons/watch-cat-8.png" class="svg_img" alt="drink" />
+                                <img src="frontend_assets/images/icons/watch-cat-8.png" class="svg_img" alt="drink" />
                             </div>
                             <div class="ec-category-desc">
                                 <h3>watch<span title="Category Items">(89)</span></h3>
@@ -210,7 +210,7 @@
                     <div class="ec_cat_content ec_cat_content_8">
                         <div class="ec_cat_inner ec_cat_inner-8">
                             <div class="ec-category-image">
-                                <img src="assets/images/icons/hat-cat-8.png" class="svg_img" alt="drink" />
+                                <img src="frontend_assets/images/icons/hat-cat-8.png" class="svg_img" alt="drink" />
                             </div>
                             <div class="ec-category-desc">
                                 <h3>hat & caps <span title="Category Items">(65)</span></h3>
@@ -277,7 +277,7 @@
                                     <!-- <div class="ec-sb-block-content">
                                         <ul>
                                             <li>
-                                                <div class="ec-sidebar-block-item"><img src="assets/images/icons/shoes-8.png" class="svg_img" alt="drink" />Footwear</div>
+                                                <div class="ec-sidebar-block-item"><img src="frontend_assets/images/icons/shoes-8.png" class="svg_img" alt="drink" />Footwear</div>
                                                 <ul>
                                                     <li>
                                                         <div class="ec-sidebar-sub-item"><a href="shop-left-sidebar-col-3.html">Sports <span title="Available Stock">- 25</span></a>
@@ -302,7 +302,7 @@
                                     <div class="ec-sb-block-content">
                                         <ul>
                                             <li>
-                                                <div class="ec-sidebar-block-item"><img src="assets/images/icons/jewelry-8.png" class="svg_img" alt="drink" />jewelry</div>
+                                                <div class="ec-sidebar-block-item"><img src="frontend_assets/images/icons/jewelry-8.png" class="svg_img" alt="drink" />jewelry</div>
                                                 <ul>
                                                     <li>
                                                         <div class="ec-sidebar-sub-item"><a href="shop-left-sidebar-col-3.html">Earrings <span title="Available Stock">- 50</span></a>
@@ -323,7 +323,7 @@
                                     <div class="ec-sb-block-content">
                                         <ul>
                                             <li>
-                                                <div class="ec-sidebar-block-item"><img src="assets/images/icons/perfume-8.png" class="svg_img" alt="drink" />perfume</div>
+                                                <div class="ec-sidebar-block-item"><img src="frontend_assets/images/icons/perfume-8.png" class="svg_img" alt="drink" />perfume</div>
                                                 <ul>
                                                     <li>
                                                         <div class="ec-sidebar-sub-item"><a href="shop-left-sidebar-col-3.html">Clothes perfume<span title="Available Stock">- 4 pcs</span></a>
@@ -348,7 +348,7 @@
                                     <div class="ec-sb-block-content">
                                         <ul>
                                             <li>
-                                                <div class="ec-sidebar-block-item"><img src="assets/images/icons/cosmetics-8.png" class="svg_img" alt="drink" />cosmetics</div>
+                                                <div class="ec-sidebar-block-item"><img src="frontend_assets/images/icons/cosmetics-8.png" class="svg_img" alt="drink" />cosmetics</div>
                                                 <ul>
                                                     <li>
                                                         <div class="ec-sidebar-sub-item"><a href="shop-left-sidebar-col-3.html">shampoo<span title="Available Stock"></span></a>
@@ -373,7 +373,7 @@
                                     <div class="ec-sb-block-content">
                                         <ul>
                                             <li>
-                                                <div class="ec-sidebar-block-item"><img src="assets/images/icons/glasses-8.png" class="svg_img" alt="drink" />glasses</div>
+                                                <div class="ec-sidebar-block-item"><img src="frontend_assets/images/icons/glasses-8.png" class="svg_img" alt="drink" />glasses</div>
                                                 <ul>
                                                     <li>
                                                         <div class="ec-sidebar-sub-item"><a href="shop-left-sidebar-col-3.html">Sunglasses <span title="Available Stock">- 20</span></a>
@@ -390,7 +390,7 @@
                                     <div class="ec-sb-block-content">
                                         <ul>
                                             <li>
-                                                <div class="ec-sidebar-block-item"><img src="assets/images/icons/bag-8.png" class="svg_img" alt="drink" />bags</div>
+                                                <div class="ec-sidebar-block-item"><img src="frontend_assets/images/icons/bag-8.png" class="svg_img" alt="drink" />bags</div>
                                                 <ul>
                                                     <li>
                                                         <div class="ec-sidebar-sub-item"><a href="shop-left-sidebar-col-3.html">shopping bag <span title="Available Stock">- 25</span></a>
@@ -435,11 +435,12 @@
                         <div class="ec-sidebar-slider">
                             <div class="ec-sb-slider-title">Best Sellers</div>
                             <div class="ec-sb-pro-sl">
+                                @foreach ($new_products as $product)
                                 <div>
                                     <div class="ec-sb-pro-sl-item">
-                                        <a href="product-left-sidebar.html" class="sidekka_pro_img"><img src="assets/images/product-image/1.jpg" alt="product" /></a>
+                                        <a href="product-left-sidebar.html" class="sidekka_pro_img"><img src="{{asset('uploads/product/'.$product->productImages[0]['image'])  }}" alt="product" /></a>
                                         <div class="ec-pro-content">
-                                            <h5 class="ec-pro-title"><a href="product-left-sidebar.html">baby fabric shoes</a></h5>
+                                            <h5 class="ec-pro-title"><a href="product-left-sidebar.html">{{ $product->title }}</a></h5>
                                             <div class="ec-pro-rating">
                                                 <i class="ecicon eci-star fill"></i>
                                                 <i class="ecicon eci-star fill"></i>
@@ -449,14 +450,16 @@
                                             </div>
                                             <span class="ec-price">
                                                 <span class="old-price">$5.00</span>
-                                                <span class="new-price">$4.00</span>
+                                                <span class="new-price">{{ $product->selling_price }}</span>
                                             </span>
                                         </div>
                                     </div>
                                 </div>
-                                <div>
+                                @endforeach
+
+                                <!-- <div>
                                     <div class="ec-sb-pro-sl-item">
-                                        <a href="product-left-sidebar.html" class="sidekka_pro_img"><img src="assets/images/product-image/2.jpg" alt="product" /></a>
+                                        <a href="product-left-sidebar.html" class="sidekka_pro_img"><img src="frontend_assets/images/product-image/2.jpg" alt="product" /></a>
                                         <div class="ec-pro-content">
                                             <h5 class="ec-pro-title"><a href="product-left-sidebar.html">Men's hoodies t-shirt</a></h5>
                                             <div class="ec-pro-rating">
@@ -475,7 +478,7 @@
                                 </div>
                                 <div>
                                     <div class="ec-sb-pro-sl-item">
-                                        <a href="product-left-sidebar.html" class="sidekka_pro_img"><img src="assets/images/product-image/3.jpg" alt="product" /></a>
+                                        <a href="product-left-sidebar.html" class="sidekka_pro_img"><img src="frontend_assets/images/product-image/3.jpg" alt="product" /></a>
                                         <div class="ec-pro-content">
                                             <h5 class="ec-pro-title"><a href="product-left-sidebar.html">Girls t-shirt</a></h5>
                                             <div class="ec-pro-rating">
@@ -494,7 +497,7 @@
                                 </div>
                                 <div>
                                     <div class="ec-sb-pro-sl-item">
-                                        <a href="product-left-sidebar.html" class="sidekka_pro_img"><img src="assets/images/product-image/4.jpg" alt="product" /></a>
+                                        <a href="product-left-sidebar.html" class="sidekka_pro_img"><img src="frontend_assets/images/product-image/4.jpg" alt="product" /></a>
                                         <div class="ec-pro-content">
                                             <h5 class="ec-pro-title"><a href="product-left-sidebar.html">woolen hat for men</a></h5>
                                             <div class="ec-pro-rating">
@@ -513,7 +516,7 @@
                                 </div>
                                 <div>
                                     <div class="ec-sb-pro-sl-item">
-                                        <a href="product-left-sidebar.html" class="sidekka_pro_img"><img src="assets/images/product-image/5.jpg" alt="product" /></a>
+                                        <a href="product-left-sidebar.html" class="sidekka_pro_img"><img src="frontend_assets/images/product-image/5.jpg" alt="product" /></a>
                                         <div class="ec-pro-content">
                                             <h5 class="ec-pro-title"><a href="product-left-sidebar.html">Womens purse</a></h5>
                                             <div class="ec-pro-rating">
@@ -532,7 +535,7 @@
                                 </div>
                                 <div>
                                     <div class="ec-sb-pro-sl-item">
-                                        <a href="product-left-sidebar.html" class="sidekka_pro_img"><img src="assets/images/product-image/6.jpg" alt="product" /></a>
+                                        <a href="product-left-sidebar.html" class="sidekka_pro_img"><img src="frontend_assets/images/product-image/6.jpg" alt="product" /></a>
                                         <div class="ec-pro-content">
                                             <h5 class="ec-pro-title"><a href="product-left-sidebar.html">Baby toy doctor kit</a></h5>
                                             <div class="ec-pro-rating">
@@ -551,7 +554,7 @@
                                 </div>
                                 <div>
                                     <div class="ec-sb-pro-sl-item">
-                                        <a href="product-left-sidebar.html" class="sidekka_pro_img"><img src="assets/images/product-image/7.jpg" alt="product" /></a>
+                                        <a href="product-left-sidebar.html" class="sidekka_pro_img"><img src="frontend_assets/images/product-image/7.jpg" alt="product" /></a>
                                         <div class="ec-pro-content">
                                             <h5 class="ec-pro-title"><a href="product-left-sidebar.html">teddy bear baby toy</a></h5>
                                             <div class="ec-pro-rating">
@@ -570,7 +573,7 @@
                                 </div>
                                 <div>
                                     <div class="ec-sb-pro-sl-item">
-                                        <a href="product-left-sidebar.html" class="sidekka_pro_img"><img src="assets/images/product-image/2.jpg" alt="product" /></a>
+                                        <a href="product-left-sidebar.html" class="sidekka_pro_img"><img src="frontend_assets/images/product-image/2.jpg" alt="product" /></a>
                                         <div class="ec-pro-content">
                                             <h5 class="ec-pro-title"><a href="product-left-sidebar.html">Mens hoodies blue</a></h5>
                                             <div class="ec-pro-rating">
@@ -586,7 +589,7 @@
                                             </span>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -637,7 +640,7 @@
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <img class="main-image" src="assets/images/product-image/89_1.jpg" alt="Product" />
+                                                    <img class="main-image" src="frontend_assets/images/product-image/89_1.jpg" alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
@@ -661,7 +664,7 @@
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <img class="main-image" src="assets/images/product-image/90_1.jpg" alt="Product" />
+                                                    <img class="main-image" src="frontend_assets/images/product-image/90_1.jpg" alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
@@ -685,7 +688,7 @@
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <img class="main-image" src="assets/images/product-image/91_1.jpg" alt="Product" />
+                                                    <img class="main-image" src="frontend_assets/images/product-image/91_1.jpg" alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
@@ -709,7 +712,7 @@
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <img class="main-image" src="assets/images/product-image/92_1.jpg" alt="Product" />
+                                                    <img class="main-image" src="frontend_assets/images/product-image/92_1.jpg" alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
@@ -733,7 +736,7 @@
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <img class="main-image" src="assets/images/product-image/93_1.jpg" alt="Product" />
+                                                    <img class="main-image" src="frontend_assets/images/product-image/93_1.jpg" alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
@@ -757,7 +760,7 @@
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <img class="main-image" src="assets/images/product-image/94_1.jpg" alt="Product" />
+                                                    <img class="main-image" src="frontend_assets/images/product-image/94_1.jpg" alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
@@ -781,7 +784,7 @@
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <img class="main-image" src="assets/images/product-image/95_1.jpg" alt="Product" />
+                                                    <img class="main-image" src="frontend_assets/images/product-image/95_1.jpg" alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
@@ -844,7 +847,7 @@
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <img class="main-image" src="assets/images/product-image/97_1.jpg" alt="Product" />
+                                                    <img class="main-image" src="frontend_assets/images/product-image/97_1.jpg" alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
@@ -868,7 +871,7 @@
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <img class="main-image" src="assets/images/product-image/98_1.jpg" alt="Product" />
+                                                    <img class="main-image" src="frontend_assets/images/product-image/98_1.jpg" alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
@@ -892,7 +895,7 @@
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <img class="main-image" src="assets/images/product-image/99_1.jpg" alt="Product" />
+                                                    <img class="main-image" src="frontend_assets/images/product-image/99_1.jpg" alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
@@ -916,7 +919,7 @@
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <img class="main-image" src="assets/images/product-image/100_1.jpg" alt="Product" />
+                                                    <img class="main-image" src="frontend_assets/images/product-image/100_1.jpg" alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
@@ -940,7 +943,7 @@
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <img class="main-image" src="assets/images/product-image/101_1.jpg" alt="Product" />
+                                                    <img class="main-image" src="frontend_assets/images/product-image/101_1.jpg" alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
@@ -964,7 +967,7 @@
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <img class="main-image" src="assets/images/product-image/102_1.jpg" alt="Product" />
+                                                    <img class="main-image" src="frontend_assets/images/product-image/102_1.jpg" alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
@@ -988,7 +991,7 @@
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <img class="main-image" src="assets/images/product-image/103_1.jpg" alt="Product" />
+                                                    <img class="main-image" src="frontend_assets/images/product-image/103_1.jpg" alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
@@ -1048,7 +1051,7 @@
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <img class="main-image" src="assets/images/product-image/112_1.jpg" alt="Product" />
+                                                    <img class="main-image" src="frontend_assets/images/product-image/112_1.jpg" alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
@@ -1072,7 +1075,7 @@
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <img class="main-image" src="assets/images/product-image/105_1.jpg" alt="Product" />
+                                                    <img class="main-image" src="frontend_assets/images/product-image/105_1.jpg" alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
@@ -1096,7 +1099,7 @@
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <img class="main-image" src="assets/images/product-image/110_1.jpg" alt="Product" />
+                                                    <img class="main-image" src="frontend_assets/images/product-image/110_1.jpg" alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
@@ -1120,7 +1123,7 @@
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <img class="main-image" src="assets/images/product-image/111_1.jpg" alt="Product" />
+                                                    <img class="main-image" src="frontend_assets/images/product-image/111_1.jpg" alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
@@ -1144,7 +1147,7 @@
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <img class="main-image" src="assets/images/product-image/106_1.jpg" alt="Product" />
+                                                    <img class="main-image" src="frontend_assets/images/product-image/106_1.jpg" alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
@@ -1168,7 +1171,7 @@
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <img class="main-image" src="assets/images/product-image/107_1.jpg" alt="Product" />
+                                                    <img class="main-image" src="frontend_assets/images/product-image/107_1.jpg" alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
@@ -1192,7 +1195,7 @@
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <img class="main-image" src="assets/images/product-image/108_1.jpg" alt="Product" />
+                                                    <img class="main-image" src="frontend_assets/images/product-image/108_1.jpg" alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
@@ -1216,7 +1219,7 @@
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <img class="main-image" src="assets/images/product-image/109_1.jpg" alt="Product" />
+                                                    <img class="main-image" src="frontend_assets/images/product-image/109_1.jpg" alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
@@ -1255,7 +1258,7 @@
                                     <div class="ec-spe-pro-inner">
                                         <div class="ec-spe-pro-image-outer col-md-6 col-sm-12">
                                             <div class="ec-spe-pro-image">
-                                                <img class="img-responsive" src="assets/images/product-image/111_1.jpg" alt="">
+                                                <img class="img-responsive" src="frontend_assets/images/product-image/111_1.jpg" alt="">
                                             </div>
                                         </div>
                                         <div class="ec-spe-pro-content col-md-6 col-sm-12">
@@ -1295,7 +1298,7 @@
                                     <div class="ec-spe-pro-inner">
                                         <div class="ec-spe-pro-image-outer col-md-6 col-sm-12">
                                             <div class="ec-spe-pro-image">
-                                                <img class="img-responsive" src="assets/images/product-image/110_1.jpg" alt="">
+                                                <img class="img-responsive" src="frontend_assets/images/product-image/110_1.jpg" alt="">
                                             </div>
                                         </div>
                                         <div class="ec-spe-pro-content col-md-6 col-sm-12">
@@ -1367,8 +1370,8 @@
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
                                                         <a href="product-left-sidebar.html" class="image">
-                                                            <img class="main-image" src="assets/images/product-image/88_1.jpg" alt="Product" />
-                                                            <img class="hover-image" src="assets/images/product-image/88_1.jpg" alt="Product" />
+                                                            <img class="main-image" src="frontend_assets/images/product-image/88_1.jpg" alt="Product" />
+                                                            <img class="hover-image" src="frontend_assets/images/product-image/88_1.jpg" alt="Product" />
                                                         </a>
                                                         <span class="percentage">20%</span>
                                                         <div class="ec-pro-actions">
@@ -1405,8 +1408,8 @@
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
                                                         <a href="product-left-sidebar.html" class="image">
-                                                            <img class="main-image" src="assets/images/product-image/97_1.jpg" alt="Product" />
-                                                            <img class="hover-image" src="assets/images/product-image/97_2.jpg" alt="Product" />
+                                                            <img class="main-image" src="frontend_assets/images/product-image/97_1.jpg" alt="Product" />
+                                                            <img class="hover-image" src="frontend_assets/images/product-image/97_2.jpg" alt="Product" />
                                                         </a>
                                                         <div class="ec-pro-actions">
                                                             <a class="ec-btn-group wishlist" title="Wishlist"><i class="fi-rr-heart"></i></a>
@@ -1442,8 +1445,8 @@
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
                                                         <a href="product-left-sidebar.html" class="image">
-                                                            <img class="main-image" src="assets/images/product-image/107_1.jpg" alt="Product" />
-                                                            <img class="hover-image" src="assets/images/product-image/107_1.jpg" alt="Product" />
+                                                            <img class="main-image" src="frontend_assets/images/product-image/107_1.jpg" alt="Product" />
+                                                            <img class="hover-image" src="frontend_assets/images/product-image/107_1.jpg" alt="Product" />
                                                         </a>
                                                         <span class="flags">
                                                             <span class="sale">Sale</span>
@@ -1481,8 +1484,8 @@
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
                                                         <a href="product-left-sidebar.html" class="image">
-                                                            <img class="main-image" src="assets/images/product-image/108_1.jpg" alt="Product" />
-                                                            <img class="hover-image" src="assets/images/product-image/108_1.jpg" alt="Product" />
+                                                            <img class="main-image" src="frontend_assets/images/product-image/108_1.jpg" alt="Product" />
+                                                            <img class="hover-image" src="frontend_assets/images/product-image/108_1.jpg" alt="Product" />
                                                         </a>
                                                         <span class="flags">
                                                             <span class="new">New</span>
@@ -1521,8 +1524,8 @@
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
                                                         <a href="product-left-sidebar.html" class="image">
-                                                            <img class="main-image" src="assets/images/product-image/110_1.jpg" alt="Product" />
-                                                            <img class="hover-image" src="assets/images/product-image/110_1.jpg" alt="Product" />
+                                                            <img class="main-image" src="frontend_assets/images/product-image/110_1.jpg" alt="Product" />
+                                                            <img class="hover-image" src="frontend_assets/images/product-image/110_1.jpg" alt="Product" />
                                                         </a>
                                                         <span class="flags">
                                                             <span class="sale">Sale</span>
@@ -1561,8 +1564,8 @@
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
                                                         <a href="product-left-sidebar.html" class="image">
-                                                            <img class="main-image" src="assets/images/product-image/94_1.jpg" alt="Product" />
-                                                            <img class="hover-image" src="assets/images/product-image/94_2.jpg" alt="Product" />
+                                                            <img class="main-image" src="frontend_assets/images/product-image/94_1.jpg" alt="Product" />
+                                                            <img class="hover-image" src="frontend_assets/images/product-image/94_2.jpg" alt="Product" />
                                                         </a>
                                                         <span class="percentage">15%</span>
                                                         <div class="ec-pro-actions">
@@ -1599,8 +1602,8 @@
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
                                                         <a href="product-left-sidebar.html" class="image">
-                                                            <img class="main-image" src="assets/images/product-image/98_1.jpg" alt="Product" />
-                                                            <img class="hover-image" src="assets/images/product-image/98_2.jpg" alt="Product" />
+                                                            <img class="main-image" src="frontend_assets/images/product-image/98_1.jpg" alt="Product" />
+                                                            <img class="hover-image" src="frontend_assets/images/product-image/98_2.jpg" alt="Product" />
                                                         </a>
                                                         <span class="flags">
                                                             <span class="sale">Sale</span>
@@ -1639,8 +1642,8 @@
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
                                                         <a href="product-left-sidebar.html" class="image">
-                                                            <img class="main-image" src="assets/images/product-image/111_1.jpg" alt="Product" />
-                                                            <img class="hover-image" src="assets/images/product-image/111_1.jpg" alt="Product" />
+                                                            <img class="main-image" src="frontend_assets/images/product-image/111_1.jpg" alt="Product" />
+                                                            <img class="hover-image" src="frontend_assets/images/product-image/111_1.jpg" alt="Product" />
                                                         </a>
                                                         <div class="ec-pro-actions">
                                                             <a class="ec-btn-group wishlist" title="Wishlist"><i class="fi-rr-heart"></i></a>
@@ -1682,8 +1685,8 @@
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
                                                         <a href="product-left-sidebar.html" class="image">
-                                                            <img class="main-image" src="assets/images/product-image/94_1.jpg" alt="Product" />
-                                                            <img class="hover-image" src="assets/images/product-image/94_2.jpg" alt="Product" />
+                                                            <img class="main-image" src="frontend_assets/images/product-image/94_1.jpg" alt="Product" />
+                                                            <img class="hover-image" src="frontend_assets/images/product-image/94_2.jpg" alt="Product" />
                                                         </a>
                                                         <div class="ec-pro-actions">
                                                             <a class="ec-btn-group wishlist" title="Wishlist"><i class="fi-rr-heart"></i></a>
@@ -1719,8 +1722,8 @@
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
                                                         <a href="product-left-sidebar.html" class="image">
-                                                            <img class="main-image" src="assets/images/product-image/95_1.jpg" alt="Product" />
-                                                            <img class="hover-image" src="assets/images/product-image/95_2.jpg" alt="Product" />
+                                                            <img class="main-image" src="frontend_assets/images/product-image/95_1.jpg" alt="Product" />
+                                                            <img class="hover-image" src="frontend_assets/images/product-image/95_2.jpg" alt="Product" />
                                                         </a>
                                                         <span class="flags">
                                                             <span class="sale">Sale</span>
@@ -1759,8 +1762,8 @@
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
                                                         <a href="product-left-sidebar.html" class="image">
-                                                            <img class="main-image" src="assets/images/product-image/88_1.jpg" alt="Product" />
-                                                            <img class="hover-image" src="assets/images/product-image/88_1.jpg" alt="Product" />
+                                                            <img class="main-image" src="frontend_assets/images/product-image/88_1.jpg" alt="Product" />
+                                                            <img class="hover-image" src="frontend_assets/images/product-image/88_1.jpg" alt="Product" />
                                                         </a>
                                                         <span class="flags">
                                                             <span class="sale">Sale</span>
@@ -1799,8 +1802,8 @@
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
                                                         <a href="product-left-sidebar.html" class="image">
-                                                            <img class="main-image" src="assets/images/product-image/89_1.jpg" alt="Product" />
-                                                            <img class="hover-image" src="assets/images/product-image/89_1.jpg" alt="Product" />
+                                                            <img class="main-image" src="frontend_assets/images/product-image/89_1.jpg" alt="Product" />
+                                                            <img class="hover-image" src="frontend_assets/images/product-image/89_1.jpg" alt="Product" />
                                                         </a>
                                                         <span class="flags">
                                                             <span class="new">New</span>
@@ -1839,8 +1842,8 @@
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
                                                         <a href="product-left-sidebar.html" class="image">
-                                                            <img class="main-image" src="assets/images/product-image/90_1.jpg" alt="Product" />
-                                                            <img class="hover-image" src="assets/images/product-image/90_2.jpg" alt="Product" />
+                                                            <img class="main-image" src="frontend_assets/images/product-image/90_1.jpg" alt="Product" />
+                                                            <img class="hover-image" src="frontend_assets/images/product-image/90_2.jpg" alt="Product" />
                                                         </a>
                                                         <span class="flags">
                                                             <span class="new">New</span>
@@ -1879,8 +1882,8 @@
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
                                                         <a href="product-left-sidebar.html" class="image">
-                                                            <img class="main-image" src="assets/images/product-image/91_1.jpg" alt="Product" />
-                                                            <img class="hover-image" src="assets/images/product-image/91_2.jpg" alt="Product" />
+                                                            <img class="main-image" src="frontend_assets/images/product-image/91_1.jpg" alt="Product" />
+                                                            <img class="hover-image" src="frontend_assets/images/product-image/91_2.jpg" alt="Product" />
                                                         </a>
                                                         <span class="flags">
                                                             <span class="sale">Sale</span>
@@ -1919,8 +1922,8 @@
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
                                                         <a href="product-left-sidebar.html" class="image">
-                                                            <img class="main-image" src="assets/images/product-image/92_1.jpg" alt="Product" />
-                                                            <img class="hover-image" src="assets/images/product-image/92_2.jpg" alt="Product" />
+                                                            <img class="main-image" src="frontend_assets/images/product-image/92_1.jpg" alt="Product" />
+                                                            <img class="hover-image" src="frontend_assets/images/product-image/92_2.jpg" alt="Product" />
                                                         </a>
                                                         <div class="ec-pro-actions">
                                                             <a class="ec-btn-group wishlist" title="Wishlist"><i class="fi-rr-heart"></i></a>
@@ -1956,8 +1959,8 @@
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
                                                         <a href="product-left-sidebar.html" class="image">
-                                                            <img class="main-image" src="assets/images/product-image/93_1.jpg" alt="Product" />
-                                                            <img class="hover-image" src="assets/images/product-image/93_2.jpg" alt="Product" />
+                                                            <img class="main-image" src="frontend_assets/images/product-image/93_1.jpg" alt="Product" />
+                                                            <img class="hover-image" src="frontend_assets/images/product-image/93_2.jpg" alt="Product" />
                                                         </a>
                                                         <div class="ec-pro-actions">
                                                             <a class="ec-btn-group wishlist" title="Wishlist"><i class="fi-rr-heart"></i></a>
@@ -1999,8 +2002,8 @@
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
                                                         <a href="product-left-sidebar.html" class="image">
-                                                            <img class="main-image" src="assets/images/product-image/96_1.jpg" alt="Product" />
-                                                            <img class="hover-image" src="assets/images/product-image/96_2.jpg" alt="Product" />
+                                                            <img class="main-image" src="frontend_assets/images/product-image/96_1.jpg" alt="Product" />
+                                                            <img class="hover-image" src="frontend_assets/images/product-image/96_2.jpg" alt="Product" />
                                                         </a>
                                                         <div class="ec-pro-actions">
                                                             <a class="ec-btn-group wishlist" title="Wishlist"><i class="fi-rr-heart"></i></a>
@@ -2036,8 +2039,8 @@
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
                                                         <a href="product-left-sidebar.html" class="image">
-                                                            <img class="main-image" src="assets/images/product-image/97_1.jpg" alt="Product" />
-                                                            <img class="hover-image" src="assets/images/product-image/97_2.jpg" alt="Product" />
+                                                            <img class="main-image" src="frontend_assets/images/product-image/97_1.jpg" alt="Product" />
+                                                            <img class="hover-image" src="frontend_assets/images/product-image/97_2.jpg" alt="Product" />
                                                         </a>
                                                         <span class="flags">
                                                             <span class="sale">Sale</span>
@@ -2076,8 +2079,8 @@
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
                                                         <a href="product-left-sidebar.html" class="image">
-                                                            <img class="main-image" src="assets/images/product-image/98_1.jpg" alt="Product" />
-                                                            <img class="hover-image" src="assets/images/product-image/98_2.jpg" alt="Product" />
+                                                            <img class="main-image" src="frontend_assets/images/product-image/98_1.jpg" alt="Product" />
+                                                            <img class="hover-image" src="frontend_assets/images/product-image/98_2.jpg" alt="Product" />
                                                         </a>
                                                         <span class="flags">
                                                             <span class="sale">Sale</span>
@@ -2116,8 +2119,8 @@
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
                                                         <a href="product-left-sidebar.html" class="image">
-                                                            <img class="main-image" src="assets/images/product-image/99_1.jpg" alt="Product" />
-                                                            <img class="hover-image" src="assets/images/product-image/99_1.jpg" alt="Product" />
+                                                            <img class="main-image" src="frontend_assets/images/product-image/99_1.jpg" alt="Product" />
+                                                            <img class="hover-image" src="frontend_assets/images/product-image/99_1.jpg" alt="Product" />
                                                         </a>
                                                         <span class="flags">
                                                             <span class="new">New</span>
@@ -2156,8 +2159,8 @@
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
                                                         <a href="product-left-sidebar.html" class="image">
-                                                            <img class="main-image" src="assets/images/product-image/100_1.jpg" alt="Product" />
-                                                            <img class="hover-image" src="assets/images/product-image/100_1.jpg" alt="Product" />
+                                                            <img class="main-image" src="frontend_assets/images/product-image/100_1.jpg" alt="Product" />
+                                                            <img class="hover-image" src="frontend_assets/images/product-image/100_1.jpg" alt="Product" />
                                                         </a>
                                                         <span class="flags">
                                                             <span class="new">New</span>
@@ -2196,8 +2199,8 @@
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
                                                         <a href="product-left-sidebar.html" class="image">
-                                                            <img class="main-image" src="assets/images/product-image/104_1.jpg" alt="Product" />
-                                                            <img class="hover-image" src="assets/images/product-image/104_2.jpg" alt="Product" />
+                                                            <img class="main-image" src="frontend_assets/images/product-image/104_1.jpg" alt="Product" />
+                                                            <img class="hover-image" src="frontend_assets/images/product-image/104_2.jpg" alt="Product" />
                                                         </a>
                                                         <div class="ec-pro-actions">
                                                             <a class="ec-btn-group wishlist" title="Wishlist"><i class="fi-rr-heart"></i></a>
@@ -2233,8 +2236,8 @@
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
                                                         <a href="product-left-sidebar.html" class="image">
-                                                            <img class="main-image" src="assets/images/product-image/102_1.jpg" alt="Product" />
-                                                            <img class="hover-image" src="assets/images/product-image/102_1.jpg" alt="Product" />
+                                                            <img class="main-image" src="frontend_assets/images/product-image/102_1.jpg" alt="Product" />
+                                                            <img class="hover-image" src="frontend_assets/images/product-image/102_1.jpg" alt="Product" />
                                                         </a>
                                                         <div class="ec-pro-actions">
                                                             <a class="ec-btn-group wishlist" title="Wishlist"><i class="fi-rr-heart"></i></a>
@@ -2270,8 +2273,8 @@
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
                                                         <a href="product-left-sidebar.html" class="image">
-                                                            <img class="main-image" src="assets/images/product-image/103_1.jpg" alt="Product" />
-                                                            <img class="hover-image" src="assets/images/product-image/103_1.jpg" alt="Product" />
+                                                            <img class="main-image" src="frontend_assets/images/product-image/103_1.jpg" alt="Product" />
+                                                            <img class="hover-image" src="frontend_assets/images/product-image/103_1.jpg" alt="Product" />
                                                         </a>
                                                         <div class="ec-pro-actions">
                                                             <a class="ec-btn-group wishlist" title="Wishlist"><i class="fi-rr-heart"></i></a>
@@ -2313,8 +2316,8 @@
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
                                                         <a href="product-left-sidebar.html" class="image">
-                                                            <img class="main-image" src="assets/images/product-image/105_1.jpg" alt="Product" />
-                                                            <img class="hover-image" src="assets/images/product-image/105_2.jpg" alt="Product" />
+                                                            <img class="main-image" src="frontend_assets/images/product-image/105_1.jpg" alt="Product" />
+                                                            <img class="hover-image" src="frontend_assets/images/product-image/105_2.jpg" alt="Product" />
                                                         </a>
                                                         <div class="ec-pro-actions">
                                                             <a class="ec-btn-group wishlist" title="Wishlist"><i class="fi-rr-heart"></i></a>
@@ -2350,8 +2353,8 @@
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
                                                         <a href="product-left-sidebar.html" class="image">
-                                                            <img class="main-image" src="assets/images/product-image/106_1.jpg" alt="Product" />
-                                                            <img class="hover-image" src="assets/images/product-image/106_2.jpg" alt="Product" />
+                                                            <img class="main-image" src="frontend_assets/images/product-image/106_1.jpg" alt="Product" />
+                                                            <img class="hover-image" src="frontend_assets/images/product-image/106_2.jpg" alt="Product" />
                                                         </a>
                                                         <span class="flags">
                                                             <span class="sale">Sale</span>
@@ -2390,8 +2393,8 @@
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
                                                         <a href="product-left-sidebar.html" class="image">
-                                                            <img class="main-image" src="assets/images/product-image/107_1.jpg" alt="Product" />
-                                                            <img class="hover-image" src="assets/images/product-image/107_1.jpg" alt="Product" />
+                                                            <img class="main-image" src="frontend_assets/images/product-image/107_1.jpg" alt="Product" />
+                                                            <img class="hover-image" src="frontend_assets/images/product-image/107_1.jpg" alt="Product" />
                                                         </a>
                                                         <span class="flags">
                                                             <span class="sale">Sale</span>
@@ -2429,8 +2432,8 @@
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
                                                         <a href="product-left-sidebar.html" class="image">
-                                                            <img class="main-image" src="assets/images/product-image/108_1.jpg" alt="Product" />
-                                                            <img class="hover-image" src="assets/images/product-image/108_1.jpg" alt="Product" />
+                                                            <img class="main-image" src="frontend_assets/images/product-image/108_1.jpg" alt="Product" />
+                                                            <img class="hover-image" src="frontend_assets/images/product-image/108_1.jpg" alt="Product" />
                                                         </a>
                                                         <span class="flags">
                                                             <span class="new">New</span>
@@ -2469,8 +2472,8 @@
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
                                                         <a href="product-left-sidebar.html" class="image">
-                                                            <img class="main-image" src="assets/images/product-image/109_1.jpg" alt="Product" />
-                                                            <img class="hover-image" src="assets/images/product-image/109_1.jpg" alt="Product" />
+                                                            <img class="main-image" src="frontend_assets/images/product-image/109_1.jpg" alt="Product" />
+                                                            <img class="hover-image" src="frontend_assets/images/product-image/109_1.jpg" alt="Product" />
                                                         </a>
                                                         <span class="flags">
                                                             <span class="new">New</span>
@@ -2509,8 +2512,8 @@
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
                                                         <a href="product-left-sidebar.html" class="image">
-                                                            <img class="main-image" src="assets/images/product-image/110_1.jpg" alt="Product" />
-                                                            <img class="hover-image" src="assets/images/product-image/110_1.jpg" alt="Product" />
+                                                            <img class="main-image" src="frontend_assets/images/product-image/110_1.jpg" alt="Product" />
+                                                            <img class="hover-image" src="frontend_assets/images/product-image/110_1.jpg" alt="Product" />
                                                         </a>
                                                         <span class="flags">
                                                             <span class="sale">Sale</span>
@@ -2549,8 +2552,8 @@
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
                                                         <a href="product-left-sidebar.html" class="image">
-                                                            <img class="main-image" src="assets/images/product-image/111_1.jpg" alt="Product" />
-                                                            <img class="hover-image" src="assets/images/product-image/111_1.jpg" alt="Product" />
+                                                            <img class="main-image" src="frontend_assets/images/product-image/111_1.jpg" alt="Product" />
+                                                            <img class="hover-image" src="frontend_assets/images/product-image/111_1.jpg" alt="Product" />
                                                         </a>
                                                         <div class="ec-pro-actions">
                                                             <a class="ec-btn-group wishlist" title="Wishlist"><i class="fi-rr-heart"></i></a>
@@ -2586,8 +2589,8 @@
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
                                                         <a href="product-left-sidebar.html" class="image">
-                                                            <img class="main-image" src="assets/images/product-image/112_1.jpg" alt="Product" />
-                                                            <img class="hover-image" src="assets/images/product-image/112_1.jpg" alt="Product" />
+                                                            <img class="main-image" src="frontend_assets/images/product-image/112_1.jpg" alt="Product" />
+                                                            <img class="hover-image" src="frontend_assets/images/product-image/112_1.jpg" alt="Product" />
                                                         </a>
                                                         <div class="ec-pro-actions">
                                                             <a class="ec-btn-group wishlist" title="Wishlist"><i class="fi-rr-heart"></i></a>
@@ -2647,7 +2650,7 @@
                             <li class="ec-test-item">
                                 <div class="ec-test-inner">
                                     <div class="ec-test-img">
-                                        <img alt="testimonial" title="testimonial" src="assets/images/testimonial/1.jpg" />
+                                        <img alt="testimonial" title="testimonial" src="frontend_assets/images/testimonial/1.jpg" />
                                     </div>
                                     <div class="ec-test-content">
                                         <div class="ec-test-name">mark jofferson</div>
@@ -2664,7 +2667,7 @@
                             <li class="ec-test-item">
                                 <div class="ec-test-inner">
                                     <div class="ec-test-img">
-                                        <img alt="testimonial" title="testimonial" src="assets/images/testimonial/2.jpg" />
+                                        <img alt="testimonial" title="testimonial" src="frontend_assets/images/testimonial/2.jpg" />
                                     </div>
                                     <div class="ec-test-content">
                                         <div class="ec-test-name">mark jofferson</div>
@@ -2681,7 +2684,7 @@
                             <li class="ec-test-item">
                                 <div class="ec-test-inner">
                                     <div class="ec-test-img">
-                                        <img alt="testimonial" title="testimonial" src="assets/images/testimonial/3.jpg" />
+                                        <img alt="testimonial" title="testimonial" src="frontend_assets/images/testimonial/3.jpg" />
                                     </div>
                                     <div class="ec-test-content">
                                         <div class="ec-test-name">mark jofferson</div>
@@ -2797,7 +2800,7 @@
                         <div class="ec-blog-inner">
                             <div class="ec-blog-image">
                                 <a href="blog-detail-left-sidebar.html">
-                                    <img class="blog-image" src="assets/images/blog-image/2.jpg" alt="Blog" />
+                                    <img class="blog-image" src="{{asset('frontend_assets/images/blog-image/2.jpg')}}" alt="Blog" />
                                 </a>
                             </div>
                             <div class="ec-blog-content">
@@ -2812,7 +2815,7 @@
                         <div class="ec-blog-inner">
                             <div class="ec-blog-image">
                                 <a href="blog-detail-left-sidebar.html">
-                                    <img class="blog-image" src="assets/images/blog-image/3.jpg" alt="Blog" />
+                                    <img class="blog-image" src="frontend_assets/images/blog-image/3.jpg" alt="Blog" />
                                 </a>
                             </div>
                             <div class="ec-blog-content">
@@ -2827,7 +2830,7 @@
                         <div class="ec-blog-inner">
                             <div class="ec-blog-image">
                                 <a href="blog-detail-left-sidebar.html">
-                                    <img class="blog-image" src="assets/images/blog-image/4.jpg" alt="Blog" />
+                                    <img class="blog-image" src="frontend_assets/images/blog-image/4.jpg" alt="Blog" />
                                 </a>
                             </div>
                             <div class="ec-blog-content">
@@ -2842,7 +2845,7 @@
                         <div class="ec-blog-inner">
                             <div class="ec-blog-image">
                                 <a href="blog-detail-left-sidebar.html">
-                                    <img class="blog-image" src="assets/images/blog-image/5.jpg" alt="Blog" />
+                                    <img class="blog-image" src="frontend_assets/images/blog-image/5.jpg" alt="Blog" />
                                 </a>
                             </div>
                             <div class="ec-blog-content">
@@ -2857,7 +2860,7 @@
                         <div class="ec-blog-inner">
                             <div class="ec-blog-image">
                                 <a href="blog-detail-left-sidebar.html">
-                                    <img class="blog-image" src="assets/images/blog-image/6.jpg" alt="Blog" />
+                                    <img class="blog-image" src="frontend_assets/images/blog-image/6.jpg" alt="Blog" />
                                 </a>
                             </div>
                             <div class="ec-blog-content">
@@ -2872,7 +2875,7 @@
                         <div class="ec-blog-inner">
                             <div class="ec-blog-image">
                                 <a href="blog-detail-left-sidebar.html">
-                                    <img class="blog-image" src="assets/images/blog-image/7.jpg" alt="Blog" />
+                                    <img class="blog-image" src="frontend_assets/images/blog-image/7.jpg" alt="Blog" />
                                 </a>
                             </div>
                             <div class="ec-blog-content">
@@ -2899,7 +2902,7 @@
                         <!-- instagram item -->
                         <div class="ec-insta-item">
                             <div class="ec-insta-inner">
-                                <a href="#" target="_blank"><img src="assets/images/instragram-image/1.jpg" alt="">
+                                <a href="#" target="_blank"><img src="frontend_assets/images/instragram-image/1.jpg" alt="">
 
                                 </a>
                             </div>
@@ -2907,7 +2910,7 @@
                         <!-- instagram item -->
                         <div class="ec-insta-item">
                             <div class="ec-insta-inner">
-                                <a href="#" target="_blank"><img src="assets/images/instragram-image/2.jpg" alt="">
+                                <a href="#" target="_blank"><img src="frontend_assets/images/instragram-image/2.jpg" alt="">
 
                                 </a>
                             </div>
@@ -2915,7 +2918,7 @@
                         <!-- instagram item -->
                         <div class="ec-insta-item">
                             <div class="ec-insta-inner">
-                                <a href="#" target="_blank"><img src="assets/images/instragram-image/3.jpg" alt="">
+                                <a href="#" target="_blank"><img src="frontend_assets/images/instragram-image/3.jpg" alt="">
 
                                 </a>
                             </div>
@@ -2923,7 +2926,7 @@
                         <!-- instagram item -->
                         <div class="ec-insta-item">
                             <div class="ec-insta-inner">
-                                <a href="#" target="_blank"><img src="assets/images/instragram-image/4.jpg" alt="">
+                                <a href="#" target="_blank"><img src="frontend_assets/images/instragram-image/4.jpg" alt="">
 
                                 </a>
                             </div>
@@ -2932,7 +2935,7 @@
                         <!-- instagram item -->
                         <div class="ec-insta-item">
                             <div class="ec-insta-inner">
-                                <a href="#" target="_blank"><img src="assets/images/instragram-image/5.jpg" alt="">
+                                <a href="#" target="_blank"><img src="frontend_assets/images/instragram-image/5.jpg" alt="">
 
                                 </a>
                             </div>
@@ -2940,7 +2943,7 @@
                         <!-- instagram item -->
                         <div class="ec-insta-item">
                             <div class="ec-insta-inner">
-                                <a href="#" target="_blank"><img src="assets/images/instragram-image/6.jpg" alt="">
+                                <a href="#" target="_blank"><img src="frontend_assets/images/instragram-image/6.jpg" alt="">
 
                                 </a>
                             </div>
@@ -2948,7 +2951,7 @@
                         <!-- instagram item -->
                         <div class="ec-insta-item">
                             <div class="ec-insta-inner">
-                                <a href="#" target="_blank"><img src="assets/images/instragram-image/7.jpg" alt="">
+                                <a href="#" target="_blank"><img src="frontend_assets/images/instragram-image/7.jpg" alt="">
 
                                 </a>
                             </div>
@@ -2956,7 +2959,7 @@
                         <!-- instagram item -->
                         <div class="ec-insta-item">
                             <div class="ec-insta-inner">
-                                <a href="#" target="_blank"><img src="assets/images/instragram-image/3.jpg" alt="">
+                                <a href="#" target="_blank"><img src="frontend_assets/images/instragram-image/3.jpg" alt="">
 
                                 </a>
                             </div>
